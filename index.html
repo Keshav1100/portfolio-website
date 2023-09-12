@@ -8,14 +8,59 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav id="desktop-nav">
+    <!-- Desktop navigation -->
+    <nav id="desktop-nav" class="main-container">
       <div class="logo">Keshav Agarwal</div>
-      <ul class="desktop-nav-menu">
+      <ul class="desktop-nav-menu-links">
         <li><a href="#">About</a></li>
         <li><a href="#">Experience</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+    <nav id="hamburger-nav" class="main-container">
+      <div class="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="hamburger-nav-menu">
+        <div class="logo">Keshav Agarwal</div>
+        <ul class="hamburger-nav-menu-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="profile" class="main-container">
+      <div class="profile-pic-container">
+        <img src="./images/proffile.jpg" alt="profile" />
+      </div>
+      <div class="profile-text">
+        <p>Hello, I'm</p>
+        <h2>Keshav Agarwal</h2>
+        <h3>Frontend Developer</h3>
+        <div class="profile-btns">
+          <button class="profile-btn">Download CV</button>
+          <button class="profile-btn">Contact Info</button>
+        </div>
+        <div class="profile-socials">
+          <a href="/">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="/">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
+  <script src="./index.js"></script>
+  <script
+    src="https://kit.fontawesome.com/5fede281c8.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
