@@ -137,8 +137,9 @@ h3 {
   width: 15rem;
 }
 #profile .profile-pic-container img {
+  user-select: none;
   width: 100%;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 #profile .profile-text {
   display: flex;
@@ -225,6 +226,7 @@ h3 {
 }
 #about-me .about-info-container .about-pic img {
   width: 100%;
+  user-select: none;
   border-radius: 1rem;
 }
 #about-me .about-info-container .about-text-info {
