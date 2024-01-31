@@ -237,6 +237,9 @@ h3 {
   height: 100%;
   text-align: justify;
 }
+#about-me .about-info-container .about-text-info h4{
+  margin-bottom: 0;
+}
 #about-me .about-info-container .about-text-info .about-exp-degree-container {
   display: flex;
   justify-content: space-between;
