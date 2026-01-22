@@ -10,15 +10,9 @@ export default function Footer() {
   }, []);
 
   return (
-<<<<<<< HEAD
     <footer className="bg-gradient-to-br from-accent dark:from-slate-950 via-accent dark:via-slate-900 to-black text-white py-16 px-6 relative overflow-hidden transition-colors duration-300">
       {/* Decorative element */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary bg-opacity-10 dark:bg-opacity-20 rounded-full blur-3xl -z-10"></div>
-=======
-    <footer className="bg-gradient-to-br from-accent via-accent to-black text-white py-16 px-6 relative overflow-hidden">
-      {/* Decorative element */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-primary bg-opacity-10 rounded-full blur-3xl -z-10"></div>
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
 
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">

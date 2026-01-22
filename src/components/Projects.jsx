@@ -16,25 +16,15 @@ export default function Projects() {
   }, [activeCategory]);
 
   return (
-<<<<<<< HEAD
     <section id="projects" className="py-20 px-6 bg-white dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
       {/* Decorative element */}
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary bg-opacity-5 dark:bg-primary dark:bg-opacity-10 rounded-full blur-3xl -z-10"></div>
-=======
-    <section id="projects" className="py-20 px-6 bg-white relative overflow-hidden">
-      {/* Decorative element */}
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary bg-opacity-5 rounded-full blur-3xl -z-10"></div>
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
 
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-20">
           <p className="section-title">My Work</p>
-<<<<<<< HEAD
           <h2 className="section-heading text-accent dark:text-white">Featured Projects</h2>
-=======
-          <h2 className="section-heading">Featured Projects</h2>
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
         </div>
 
         {/* Category Filter */}
@@ -48,11 +38,7 @@ export default function Projects() {
               className={`px-8 py-3 rounded-full font-semibold transition-all duration-300 ${
                 activeCategory === category
                   ? "bg-primary text-white shadow-lg shadow-primary/50"
-<<<<<<< HEAD
                   : "bg-gray-100 dark:bg-slate-800 text-accent dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-slate-700 border-2 border-transparent hover:border-primary"
-=======
-                  : "bg-gray-100 text-accent hover:bg-gray-200 border-2 border-transparent hover:border-primary"
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
               }`}
             >
               {category}
@@ -65,19 +51,11 @@ export default function Projects() {
           {filteredProjects.map((project, index) => (
             <div
               key={project.id}
-<<<<<<< HEAD
               className="group relative bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Project Image Container */}
               <div className="relative w-full h-64 overflow-hidden bg-gradient-to-br from-gray-200 dark:from-slate-700 to-gray-300 dark:to-slate-600">
-=======
-              className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              {/* Project Image Container */}
-              <div className="relative w-full h-64 overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300">
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
                 <img
                   src={project.image}
                   alt={project.title}
@@ -92,20 +70,12 @@ export default function Projects() {
               <div className="p-8 space-y-4">
                 <div className="space-y-2">
                   <p className="text-sm text-primary font-semibold uppercase tracking-wide">{project.category}</p>
-<<<<<<< HEAD
                   <h3 className="text-2xl font-bold text-accent dark:text-white group-hover:text-primary transition-colors">
-=======
-                  <h3 className="text-2xl font-bold text-accent group-hover:text-primary transition-colors">
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
                     {project.title}
                   </h3>
                 </div>
 
-<<<<<<< HEAD
                 <p className="text-accent dark:text-gray-400 opacity-75 text-sm leading-relaxed">
-=======
-                <p className="text-accent opacity-75 text-sm leading-relaxed">
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
                   {project.description}
                 </p>
 
@@ -114,11 +84,7 @@ export default function Projects() {
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
-<<<<<<< HEAD
                       className="text-xs bg-primary bg-opacity-10 dark:bg-opacity-20 text-primary px-4 py-2 rounded-full font-medium"
-=======
-                      className="text-xs bg-primary bg-opacity-10 text-primary px-4 py-2 rounded-full font-medium"
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
                     >
                       {tech}
                     </span>
@@ -126,11 +92,7 @@ export default function Projects() {
                 </div>
 
                 {/* Action Buttons */}
-<<<<<<< HEAD
                 <div className={`flex gap-3 pt-6 border-t border-gray-100 dark:border-slate-700 ${!project.liveDemo ? "justify-center" : ""}`}>
-=======
-                <div className={`flex gap-3 pt-6 border-t border-gray-100 ${!project.liveDemo ? "justify-center" : ""}`}>
->>>>>>> 949c963dfeea9629720427f6dff7a9649d90936f
                   <a
                     href={project.github}
                     target="_blank"
